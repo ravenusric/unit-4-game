@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Eater|Luckiest+Guy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hi+Melody" rel="stylesheet">
+    <title>Crystal Collector: With a Twist</title>
+</head>
+
+<body id = "background">
+        <div class="header">
+                <h1>Grayskull Crystal Collector</h1>
+            </div>
+            <div class="instructions">
+                <h3>Take Heed of the Rules Before Thee</h3>
+                </br>
+                <ol>
+                    <li>You will be given a random number at the start of the game.</li>
+                    <li>There are four characters below.</li>
+                    <ul>
+                        <li id="Heman">He-Man</li>
+                        <li id="Manatarms">Man-at-arms</li>
+                        <li id="Skeletor">Skeletor</li>
+                        <li id="TrapJaw">Trap-Jaw</li>
+                    </ul>
+                    <li>Click upon a character and you shall add points to your total score.</li>
+                    <li>To achieve victory you must match your total sum to the random number.</li>
+                    <li>Shall your score reach beyond the random number, you lose Grayskull to Skeletor!</li>
+                    <li>The true essence of each character may only be determined upon your desired click.</li>
+                    <li>Be warned! The characters hold no permanent value! Each event leads to new possibilities!</li>
+                </ol>
+            </div>
+            <div class="numberToMatch">
+                <h2>Victorious Sum:
+                    <span id= "randomNumber"></span>
+                </h2>
+            </div>
+            <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id= "numberWins"></span>
+                    </br>
+                    Losses: 
+                    <span id= "numberLosses"></span>
+                </h2>
+            </div>
+            <div class="Characters">
+                <img src="assets/images/he-mangif.gif" class=Eternians id="one" alt="He-Man">
+                <img src="assets/images/manatarms1.gif" class=Eternians id="two" alt="Man-at-arms">
+                <img src="assets/images/skeletorfools.gif" class=Eternians id= "three" alt="Skeletor">
+                <img src="assets/images/trapJaw.gif" class=Eternians id= "four" alt="Trap-Jaw">
+            </div>
+            <div class="userTotal">
+                <h2>Your total score is:
+                    <span id="finalTotal"></span>
+                </h2>
+            </div>
+            <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+            <script type="text/javascript" src="assets/javascript/game.js"></script>        
+        
+        
+        </body>
+        
+        </html>

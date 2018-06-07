@@ -1,0 +1,78 @@
+body#background {
+	background: url("../images/grayskullskeletor.gif")  no-repeat 50% 50% fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+div{
+	background-color: transparent;
+	margin: 10px;
+	width: 25%
+	}
+div{
+	border: solid 2px transparent;
+	padding: 10px;
+}
+h1, h3, {
+	font-weight: bold;color: purple;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;color: purple;
+	
+	
+}
+h2 {
+	font-family: 'Hi Melody', cursive; color:yellow;
+}
+ol{
+	list-style: decimal inside;color:yellow;
+	font-family: 'Hi Melody', cursive;
+}
+ul {
+	list-style: disc inside;
+	text-indent: 20px;color:yellow;
+	font-family: 'Hi Melody', cursive;
+}
+/* Specfic Elements*/
+div.header, div.gems{
+	background-color: transparent;
+	font-family: 'Luckiest Guy', cursive;color: purple;
+    font-family: 'Eater', cursive;color:purple;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+/* Classes */
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+	color: yellowgreen;
+}
+.Characters{
+	clear: both;
+}
+.Eternians{
+	height: 80px;
+	margin: 10px;
+	width: 60px;
+}
+/* Character Ids */
+#Heman{
+	color: yellow;
+}
+#Manatarms{
+	color: rgb(79, 218, 79);
+}
+#Skeletor{
+	color: blueviolet;
+}
+#TrapJaw{
+	color: hotpink;
+}
